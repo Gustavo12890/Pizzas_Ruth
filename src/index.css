@@ -1,0 +1,535 @@
+/* HOME */
+
+body { 
+    background-color: #FFF9F7;
+}
+
+.navBar {
+    background-color: #FFF9F7;
+}
+
+.logotipo {
+    color: #FC8868;
+    font-weight: bold;
+}
+
+.logotipo:hover {
+    color: #FC8868;
+}
+
+.logo {
+    width: 5rem;
+}
+
+.btnLogin {
+    text-decoration: none;
+    color: #FC8868;
+    font-weight: bold;
+    border: 2px solid #FC8868;
+    border-radius: 24px;
+}
+
+.btnLogin:hover {
+    background-color: #FC8868;
+    color: #ffffff;
+    border: 2px solid #FC8868;
+}
+
+.btnCadastro {
+    background-color: #FFF9F7;
+    color: #FC8868;
+    font-weight: bold;
+    border: 2px solid #FC8868;
+    border-radius: 24px;
+}
+
+.btnCadastro:hover {
+    background-color: #FC8868;
+    border: 2px solid #FC8868;
+}
+
+.fundo {
+    width: 100%;
+    height: 300px;
+    background-color: #FC8868;
+}
+
+.card-branco {
+    width: 900px;
+    height: 400px;
+    border-radius: 16px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: rgba(35, 31, 32, 0.12) 0px 4px 12px;
+    background-color: #ffffff;
+    padding: 5rem 4rem 3rem;
+    background-image: url(/src/assets/Pizza.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    border: none;
+}
+
+.textoscard {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.tituloCard {
+    max-width: 18.75rem;
+    margin-bottom: 1rem;
+}
+
+.textCard {
+    margin-bottom: 1.5rem;
+}
+
+.barraPesquisa {
+    border-radius: 32px;
+    box-shadow: rgb(159, 154, 155) 0px 0px 0px 1px inset;
+    padding: 1rem 1.5rem 1rem 3.5rem;
+    border: unset;
+}
+
+.barraPesquisa:focus {
+    box-shadow: 0 0 0 2px #FC8868 inset, 
+    rgba(255, 117, 115, 0.32) 0px 4px 8px;
+}
+
+.icone-input {
+    position: absolute;
+    margin-left: 1.3rem;
+    width: 24px;
+    height: 24px;
+}
+
+.textLocalizacao {
+    font-size: 0.875rem;
+    margin-top: 3rem;
+    color: #FC8868;
+}
+
+.titulo {
+    padding-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.banner-home {
+    border-radius: 10px;
+    width: 76vw;
+}
+
+.image-pizza2 {
+    width: 14rem;
+}
+
+.fundo-branco {
+    width: 100vw;
+    height: 10rem;
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: #231f20;
+}
+
+.icone {
+    width: 28px;
+    height: 28px;
+}
+
+.nav-link {
+    color: #ffffff;
+} 
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.linha-footer {
+    width: 78vw;
+}  
+
+/* HOME */
+
+/* CADASTRO */
+ .padding-cadastro {
+    padding-top: 4em;
+ }
+
+ .form-cadastro {
+    margin-left: 5rem;
+ }
+/* CADASTRO */
+
+/* LOGIN */
+
+.navbar-login { 
+    border-bottom: 1px solid rgb(225, 219, 221);
+}
+
+.link-login {
+    color: #FC8868;
+    font-weight: 500;
+}
+
+.input-login {
+    padding: 1rem 1.5rem;
+    border-radius: 32px;
+    width: 24rem;
+    box-shadow: rgb(159, 154, 155) 0px 0px 0px 1px inset;
+    border: unset;
+}
+
+.input-login:focus {
+    box-shadow: 0 0 0 2px #FC8868 inset, 
+    rgba(255, 117, 115, 0.32) 0px 4px 8px;
+}
+
+.botao-login {
+    padding: 1rem 1.5rem;
+    border-radius: 32px;
+    width: 24rem;
+    background-color: #FC8868;
+    font-weight: bold;
+    border: none;
+} 
+
+.botao-login:hover {
+    background-color: #e7795b;
+} 
+
+.padding-login {
+    padding-top: 1em;
+} 
+
+.form-login {
+    margin-left: 5rem;
+}
+
+/* LOGIN */
+
+@media screen and (max-width: 768px) {
+    .card-branco {
+        background-image: none;
+        padding: 2rem 1.5rem;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .textos-home {
+        margin-top: 2rem;
+    }
+
+    .image-cadastro {
+        display: none;
+    }
+
+    .image-login {
+        display: none;
+    }
+
+    .logotipo {
+        display: none;
+    }
+
+    .fs-6 {
+        flex-direction: column; /* Altera a direção para coluna */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .logo-container {
+        margin-bottom: 0; /* Remove o espaçamento entre a logo e o texto */
+    }
+
+    .input-login {
+        width: 100%;
+    }
+
+    .endereco {
+        display: flex;
+    }
+
+    .collapse {
+        display: none;
+    }
+
+    .form-cadastro {
+        margin-left: 0.1rem;
+    }
+
+    .form-login {
+        margin-left: 0.1rem;
+    }
+
+    .botao-login {
+        width: 100%;
+    }
+
+    .nav-login {
+        margin-left: 1rem;
+    }
+}
+
+/* RESTAURANTES */
+
+.icone-restaurantes {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.card-restaurante {
+    width: 22rem;
+    border-radius: 20px;
+}
+
+.conteudo-restaurante {
+    max-width: 12rem;
+}
+
+.titulo-card {
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.div-imgRestaurante {
+    margin: 0.5rem 0.5rem 0.5rem 0px;
+    width: 7.5rem;
+    height: 8rem;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(248, 242, 244);
+    border-radius: 8px;
+}
+
+.image-restaurante {
+    pointer-events: none;
+    position: relative;
+    left: 1.6rem;
+    height: 8rem;
+    transform: translateX(-25%);
+}
+
+.image-restaurante2 {
+    pointer-events: none;
+    position: relative;
+    left: 1.6rem;
+    height: 8rem;
+    transform: translateX(-35%);
+}
+
+.texto-cardRestaurante {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    color: rgb(118, 113, 114);
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.scroll-cards {
+    overflow: auto;
+    gap: 30px;
+}
+
+.scroll-cards::-webkit-scrollbar {
+    width: 0;
+}
+
+.link-restaurante {
+    color: #FC8868;
+}
+
+.link-restaurante:hover {
+    color: #FC8868;
+}
+
+.botao-restaurantes {
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    color: #231f20;
+    border: 1px solid #231f20;
+    border-radius: 21px;
+}
+
+.botao-restaurantes:hover {
+    box-shadow: #e7795b 0px 0px 0px 4px inset;
+    border-color: #e7795b;
+    background-color: #ffffff;
+    color: #231f20;
+}
+
+.botao-restaurantes:active,
+.botao-restaurantes:focus {
+    background-color: #ffffff !important;
+    color: #231f20 !important;
+    box-shadow: #e7795b 0px 0px 0px 4px inset !important;
+    border-color: #e7795b !important;
+}
+
+.img-modal {
+    width: 60%;
+}
+
+.botao-modal {
+    padding: 0.5rem 1rem;
+    background-color: #FC8868;
+    color: #ffffff;
+    border: none;
+    border-radius: 21px;
+}
+
+.botao-modal:hover {
+    background-color: #e7795b;
+}
+
+.botao-modal:active,
+.botao-modal:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    background-color: #e7795b !important;
+}
+
+.botao-carrinho {
+    background-color: #FC8868;
+    border: none;
+    border-radius: 16px;
+}
+
+.botao-carrinho:active,
+.botao-carrinho:focus,
+.botao-carrinho {
+    background-color: #FC8868 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.box-icone {
+    background-color: #e7795b;
+    border-radius: 40px;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.dropdown-perfil {
+    background-color: transparent !important;
+    border: none !important;
+    color: #000000 !important; 
+  }
+  
+  .dropdown-perfil:hover,
+  .dropdown-perfil:active,
+  .dropdown-perfil:focus {
+    background-color: #FFF9F7 !important;
+    color: #000000 !important;
+  }
+  
+  .dropdown-perfil:disabled {
+    background-color: transparent !important;
+    color: #868e96 !important;
+  }
+  
+/* RESTAURANTES */
+
+.input-produtos {
+    padding: 0.8rem 1.5rem;
+    border-radius: 32px;
+    width: 25rem;
+    box-shadow: rgb(159, 154, 155) 0px 0px 0px 1px inset;
+    border: unset;
+}
+
+.input-produtos:focus {
+    box-shadow: 0 0 0 2px #FC8868 inset, 
+    rgba(255, 117, 115, 0.32) 0px 4px 8px;
+}
+
+.form-produtos {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 3rem;
+}
+
+.botao-produtos {
+    padding: 1rem 1.5rem;
+    border-radius: 32px;
+    width: 25rem;
+    background-color: #FC8868;
+    font-weight: bold;
+    border: none;
+} 
+
+.botao-produtos:hover {
+    background-color: #e7795b;
+} 
+
+.botao-categoria {
+    border-radius: 20px;
+    border: 1px solid rgb(203, 197, 198);
+    padding: 0.3rem 1.5rem;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: rgba(35, 31, 32, 0.1) 0px 2px 4px;
+}
+
+.botao-categoria:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid rgb(203, 197, 198);
+}
+
+/*TELA CARDAPIO*/
+
+.botao-destaque {
+    border-radius: 20px;
+    border: 1px solid rgb(203, 197, 198);
+    padding: 0.3rem 1.5rem;
+    background-color: #FC8868;
+    color: #ffffff;
+    box-shadow: rgba(35, 31, 32, 0.1) 0px 2px 4px;
+    font-weight: 500;
+}
+
+.botao-destaque:hover,
+.botao-destaque:active,
+.botao-destaque:focus-visible {
+    background-color: #FC8868 !important;
+    color: #ffffff !important;
+    border: 1px solid rgb(203, 197, 198) !important;
+}
+
+.menu-dropdown:hover {
+    background-color: #FC8868;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.menu-dropdown:active {
+    background-color: #e7795b;
+}
+
+.botao-categoria:active,
+.botao-categoria:hover {
+    background-color: #FC8868 !important;
+    color: #ffffff !important;
+    font-weight: 500;
+    border: 1px solid rgb(203, 197, 198) !important;
+}
+
+/*TELA CARDAPIO*/
